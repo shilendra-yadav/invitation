@@ -35,7 +35,7 @@ Table of Contents:
 
 .title--special {
 	font-family: "laug";
-	line-height: 1.6;
+	line-height: 1.2;
 	margin-bottom: 50px;
 }
 
@@ -349,7 +349,7 @@ a:hover {
 
 .date-section__block .title--special {
 	font-size: 40px;
-	line-height: 40px;
+	line-height: 60px;
 	margin-bottom: 30px;
 }
 
