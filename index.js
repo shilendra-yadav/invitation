@@ -43,7 +43,8 @@ $(window).on("scroll", function () {
 });
 
 function mycallback() {
-  this.el.classList.add("finish");
+  	this.el.classList.add("finish");
+	window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 Vivus.prototype.myremoveclass = function () {
   this.el.classList.remove("finish");
