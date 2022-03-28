@@ -52,9 +52,11 @@ var loaderSvg = new Vivus(
   "my-svg",
   {
     file: "images/loader.svg",
-    type: "delayed",
-    duration: 200,
-    animTimingFunction: Vivus.EASE,
+    type: 'sync',
+		duration: 100,
+		start: 'autostart',
+		dashGap: 20,
+		forceRender: false
   },
   mycallback
 );
