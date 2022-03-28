@@ -208,6 +208,9 @@ a:hover {
 	font-size: 14px;
 	color: #000;
 }
+.accordion_body .align-items-center {
+	font-weight: 600;
+}
 
 .accordion__header .btn:hover, .accordion__header .btn[aria-expanded="true"] {
 	text-decoration: none;
@@ -387,7 +390,6 @@ a:hover {
 @media only screen and (min-width: 768px) {
 	.timer__digit {
 		font-size: 50px;
-		line-height: 80px;
 		font-weight: 400;
 	}
 }
